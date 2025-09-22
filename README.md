@@ -9,3 +9,6 @@ It allows users to know about their **Body Mass Index (BMI)**.
 - Gives the user their BMI
 - BMI Status
 - Built with **React Hooks**
+
+  ## 📸 Preview
+![BMI Calculator Preview](./images/Preview.gif)
