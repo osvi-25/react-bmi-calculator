@@ -5,6 +5,9 @@
 A BMI Calculator built with **React**.  
 It allows users to know about their **Body Mass Index (BMI)**.
 
+## Live Demo
+Check out the live version of this project [here](react-bmi-calculator-seven.vercel.app).
+
 ## 🚀 Features
 - Gives the user their BMI
 - BMI Status
