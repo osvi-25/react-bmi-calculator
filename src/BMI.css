@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #B1D7B4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-container{
+    width: 800px;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    background-color: #FCECDD;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.app-image{
+    width: 450px;
+    height: 500px;
+    background-image: url(./assets/bmi3.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.data{
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.data h1{
+    color: #d35a5a;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.input-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #d35a5a;
+    width: 100%;
+}
+label{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+input{
+    padding: 10px;
+    outline: none;
+    border: 2px solid #d35a5a;
+    border-radius: 10px;
+}
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #d35a5a;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+button:hover{
+    background-color: #d13535;
+}
+button:nth-of-type(2){
+    background-color: #7FB77E;
+    margin-left: 20px;
+}
+.result{
+    width: 100%;
+    padding: 20px 0px;
+    margin-top: 30px;
+    border: 2px solid #d35a5a;
+    background-color: white;
+    border-radius: 4px;
+    color: #7FB77E;
+    font-size: 18px;
+}
+.result p{
+    padding: 0px 10px;
+    color: #d35a5a;
+}
+.result span{
+    font-weight: bold;
+}
+.error{
+    color: red;
+    margin-left: 18px;
+    margin-top: 10px;
+}
